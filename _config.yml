@@ -41,12 +41,12 @@ author:
   bio       : AI+IoT+Embedded+Linux.
   email     : cxc98@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : https://twitter.com/XC_Ulysses # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  weibo     : https://weibo.com/5591305745/profile?rightmod=1&wvr=6&mod=personinfo # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  twitter   : XC_Ulysses # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  weibo     : 5591305745/profile?rightmod=1&wvr=6&mod=personinfo # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
-  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
-  zhihu     : https://www.zhihu.com/people/yu-ju-xian-sheng # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  medium    : # "user_nayme" the last part of your profile url, e.g. https://medium.com/user_name
+  zhihu     : yu-ju-xian-sheng # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
   github    : https://github.com/UlyssesXC # "user_name" the last part of your profile url, e.g. https://github.com/user_name
