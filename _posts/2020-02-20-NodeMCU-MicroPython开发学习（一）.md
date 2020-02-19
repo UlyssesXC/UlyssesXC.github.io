@@ -1,8 +1,6 @@
 ---
-tags:["ESP8266","IoT","Python","Chips"]
+tags: ["ESP8266","IoT","Python","Chips"]
 ---
-
-
 
 # 简述
 
@@ -39,4 +37,16 @@ MicroPython这东西还是挺牛逼的，Sipeed推出的板子也在宣传自己
 - NodeMCU驱动支持：CP340或CP2102等等
 - MicroPython固件：[点击下载](http://www.micropython.org/resources/firmware/esp8266-20191220-v1.12.bin)（时间久了就不一定是最新版了）
 - Windows10环境的ESP8266烧录工具：[点击下载](https://www.espressif.com/zh-hans/support/download/other-tools)
+
+打开在乐鑫官网下载的烧录工具，点击ESP8266，按下图填写：
+
+![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss/PIC20200220001608.png)
+
+**建议在刷固件前，先ERASE一下，把旧的删掉**
+
+点击START，开始刷写固件。
+
+![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss/PIC20200220002907.png)
+
+
 
