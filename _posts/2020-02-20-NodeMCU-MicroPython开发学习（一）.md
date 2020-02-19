@@ -38,6 +38,8 @@ MicroPython这东西还是挺牛逼的，Sipeed推出的板子也在宣传自己
 - MicroPython固件：[点击下载](http://www.micropython.org/resources/firmware/esp8266-20191220-v1.12.bin)（时间久了就不一定是最新版了）
 - Windows10环境的ESP8266烧录工具：[点击下载](https://www.espressif.com/zh-hans/support/download/other-tools)
 
+### 烧写
+
 打开在乐鑫官网下载的烧录工具，点击ESP8266，按下图填写：
 
 ![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss/PIC20200220001608.png)
@@ -48,5 +50,23 @@ MicroPython这东西还是挺牛逼的，Sipeed推出的板子也在宣传自己
 
 ![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss/PIC20200220002907.png)
 
+烧录完成后，我们打开串口工具，我用的是正点出的XCOM，如果在RTS后接受到了打印信息，就算烧写成功了。
 
+![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss/PIC20200220005623.png)
+
+### Hello World！
+
+通过串口发送命令过去，就可以直接当作命令行运行！
+
+试试看`help()`
+
+![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss/PIC20200220010641.png)
+
+打印`Hello World`
+
+![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss/PIC20200220010908.png)
+
+结束
+
+后面开始尝试各个库和Python的对比，再学一下基本硬件的调用。
 
