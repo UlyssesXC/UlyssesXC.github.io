@@ -78,7 +78,9 @@ MicroPython这东西还是挺牛逼的，Sipeed推出的板子也在宣传自己
 
 ![](https://cdn.jsdelivr.net/gh/UlyssesXC/imgulss//PIC20200226204105.png)
 
-按顺序选好芯片型号和端口，连接即可。
+在 Tools 中按顺序选好芯片型号和端口，点击右侧的锁链标志连接即可。
+
+成功连接后下方命令行窗口即可正常使用。
 
 ### ~~VS Code IDE搭建~~（遇到一点问题）
 
