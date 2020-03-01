@@ -26,8 +26,6 @@ titles:
 key: page-about
 ---
 
-# 关于
-
 ![](https://img-1253341704.cos.ap-shanghai.myqcloud.com/PICREWS5922.png)
 
 **作者：**在物联网、AI、嵌入式 / 研发和业务之间挣扎的一枚菜鸡，**相关个人网站位置见页面最下方**。
