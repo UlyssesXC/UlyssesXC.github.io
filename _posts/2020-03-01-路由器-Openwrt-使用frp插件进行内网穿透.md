@@ -20,6 +20,8 @@ tags: ["服务器","笔记","瞎折腾"]
 
 附上一部分过程用到的链接和说明，保留给自己迁移使用：
 
+内网穿透最经典的思路就是把内网的端口号，直接映射到公网服务器ip地址相同的端口号，比如说内网是5299（百度网盘那个），外网访问就还是123.123.123.123：5299
+
 恩山自编译固件：[K3 OpenWrt Lede](https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=2223080&ordertype=1)
 
 另一个没用上的版本：[K3 OPENWRT R20.2](https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=306836&pid=2462826&page=1)
@@ -30,9 +32,9 @@ tags: ["服务器","笔记","瞎折腾"]
 
 服务器的frp设置教程：[少数派-使用frp进行内网穿透](https://sspai.com/post/52523)
 
-> 教程中面板端口是7000 我改成了80 反正二级域名怎么样都无所谓
+> 教程中frp端口是7000 面板端口是7500  反正二级域名怎么样都无所谓
 >
-> 教程中的http和https不用 但是Openwrt是需要使用的
+> 教程中的http和https不用 但是Openwrt是需要使用的 把http改到了80端口 如果屏蔽后面再改就是了
 
 因为教程里的服务器frp没有办法保证开机自启，于是：[CSDN-ubuntu16开机自动执行代码](https://blog.csdn.net/weixin_42451919/article/details/88971503)
 
@@ -43,3 +45,15 @@ tags: ["服务器","笔记","瞎折腾"]
 附上frp的设置（虽然都打码了）
 
 ![](https://img-1253341704.cos.ap-shanghai.myqcloud.com/PIC8ecd4b2d42ee0b590d60d7d380b3133.png)
+
+使用FTP需要TCP接好FTP的端口转发：[一楼下面有详细用法](https://www.right.com.cn/forum/thread-405878-1-1.html)
+
+FTP是TCP协议的，所以服务器需要打开TCP端口监听：[CSDN-iptables](https://blog.csdn.net/fancancan/article/details/81286689)
+
+使用方法：[CSDN-iptables命令使用](https://blog.csdn.net/Henry_Wu001/article/details/19151213?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+
+**百度网盘、aria2等功能用http穿不了，必须直接把内网端口用frp的TCP转到公网ip，再用公网ip访问：route.ulss.tech:各个插件功能的穿透上来的端口号**
+
+设置好的端口转发规则可以在 http://frp.ulss.tech:7500 中查看
+
+smartDNS设置：[下面有人分享出来了设置内容](https://www.right.com.cn/forum/thread-2096941-1-1.html)
