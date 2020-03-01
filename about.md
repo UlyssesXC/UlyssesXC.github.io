@@ -32,9 +32,10 @@ key: page-about
 
 本域名绑定常用地址跳转（个人使用）：
 
-- OpenWrt 后台管理位置：[http://route.ulss.tech:10080](http://route.ulss.tech:10080)
-- frp 面板菜单：[http://route.ulss.tech](http://frp.ulss.tech)
-- FTP 个人私有云盘：[http://ftp.ulss.tech:10080](http://ftp.ulss.tech:10080)
-- ~~aria2 私有云下载面板：[http://aria2.ulss.tech:10080](http://aria2.ulss.tech:10080)~~
-- Bittorrent私有云下载面板：[http://qt.ulss.tech:10080](http://qt.ulss.tech:10080)
+- OpenWrt 后台管理位置：[http://route.ulss.tech](http://route.ulss.tech)
+- frp 面板菜单：[http://route.ulss.tech:7500](http://frp.ulss.tech:7500)
+- FTP 个人私有云盘：[ftp://ftp.ulss.tech:2020](ftp://ftp.ulss.tech:2020)
+- ~~aria2 私有云下载面板：[http://aria2.ulss.tech:6800](http://aria2.ulss.tech)~~
+- Bittorrent私有云下载面板：[http://route.ulss.tech:9091](http://qt.ulss.tech:9091)
+- 离线百度网盘：[http://route.ulss.tech:5299](http://pan.ulss.tech:5299)
 
